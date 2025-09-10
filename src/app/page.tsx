@@ -156,7 +156,7 @@ export default function Home() {
                 className="hover:underline"
                 style={{ color: 'var(--label-secondary)' }}
               >
-                粤ICP备2025409264号-1
+                粤ICP备2025409264号
               </a>
             </div>
             
