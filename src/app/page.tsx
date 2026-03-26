@@ -31,8 +31,9 @@ const getThemedAppImage = (baseName: string, locale: string) => {
 };
 
 // App Store 链接
-const picTuneAppStoreUrl = "https://apps.apple.com/cn/app/pictune-%E9%9F%B3%E4%B9%90%E5%AE%9E%E5%86%B5%E7%85%A7%E7%89%87/id6744852198?itscg=30200&itsct=apps_box_badge&mttnsubad=6744852198";
-const toHDRAppStoreUrl = "https://apps.apple.com/cn/app/tohdr/id6746218392?itscg=30200&itsct=apps_box_badge&mttnsubad=6746218392";
+const picTuneAppStoreUrl = "https://apps.apple.com/app/id6744852198";
+const meloryAppStoreUrl = "https://apps.apple.com/app/id6756657818";
+const toHDRAppStoreUrl = "https://apps.apple.com/app/id6746218392";
 
 export default function Home() {
   const { translations, locale } = useLocale();
@@ -41,6 +42,11 @@ export default function Home() {
   const picTuneImages = {
     icon: getThemedImage('pictune-icon'),
     app: getThemedAppImage('pictune-app', locale)
+  };
+
+  const meloryImages = {
+    icon: getThemedImage('melory-icon'),
+    app: getThemedAppImage('melory-app', locale)
   };
 
   const toHDRImages = {
@@ -112,6 +118,21 @@ export default function Home() {
           
           {/* List */}
           <div className="flex flex-col gap-6 md:gap-10 items-start justify-start w-full">
+            {/* Melory App Card */}
+            <AppCard
+              appIcon={meloryImages.icon}
+              appName="Melory"
+              appDescription={translations.meloryDescription}
+              appDetail={
+                <>
+                  <p style={{ marginBottom: '1rem' }}>{translations.meloryDetail1}</p>
+                  <p>{translations.meloryDetail2}</p>
+                </>
+              }
+              appImage={meloryImages.app}
+              appStoreUrl={meloryAppStoreUrl}
+            />
+
             {/* PicTune App Card */}
             <AppCard
               appIcon={picTuneImages.icon}

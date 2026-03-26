@@ -32,16 +32,11 @@ export default function AppCard({
         {/* Header */}
         <div className="flex flex-col md:flex-row gap-4 md:gap-4.5 items-center md:items-center justify-start w-full">
           {/* App Icon - Clickable */}
-          <a href={appStoreUrl} className="relative rounded-[16px] shrink-0 w-[70px] h-[70px] hover:scale-102 transition-transform duration-200">
+          <a href={appStoreUrl} className="relative shrink-0 w-[70px] h-[70px] hover:scale-102 transition-transform duration-200">
             <ThemedBackgroundImage
               lightSrc={appIcon.light}
               darkSrc={appIcon.dark}
-              className="rounded-[16px] w-full h-full"
-            />
-            <div 
-              aria-hidden="true" 
-              className="absolute border border-solid inset-0 pointer-events-none rounded-[16px]" 
-              style={{ borderColor: 'var(--fill-primary)' }}
+              className="w-full h-full"
             />
           </a>
           

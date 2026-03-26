@@ -17,6 +17,11 @@ export const en: Translations = {
   pictuneDescription: 'Add album cover & lyrics to photos',
   pictuneDetail1: 'PicTune is an innovative photo editing app that perfectly blends your photos with music, full of rhythm.',
   pictuneDetail2: 'With simple operations, you can add beautifully designed, diverse, and personalized music players, and export Live Photos with scrolling lyrics effects.',
+
+  // Melory app
+  meloryDescription: 'Discover stories behind music',
+  meloryDetail1: 'Every song is written for a reason. Melory helps you explore the historical context, creative intentions, and emotional expressions behind each melody.',
+  meloryDetail2: 'Syncs with Apple Music playback. Discover more music stories through song recognition, discovery, and search, then read, like, and share them with friends.',
   
   // toHDR app
   tohdrDescription: 'Convert photos to HDR effects',

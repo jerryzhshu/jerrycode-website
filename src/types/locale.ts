@@ -17,6 +17,11 @@ export interface Translations {
   pictuneDescription: string;
   pictuneDetail1: string;
   pictuneDetail2: string;
+
+  // Melory app
+  meloryDescription: string;
+  meloryDetail1: string;
+  meloryDetail2: string;
   
   // toHDR app
   tohdrDescription: string;

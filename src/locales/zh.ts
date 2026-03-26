@@ -17,6 +17,11 @@ export const zh: Translations = {
   pictuneDescription: '为照片添加专辑封面和动态歌词',
   pictuneDetail1: 'PicTune 是一款创新的照片编辑应用，让你的“照片”与“音乐”完美融合，律动十足。',
   pictuneDetail2: '简单操作，即可添加精美、多样、个性化的音乐播放器，导出带有歌词滚动效果的实况照片（Live Photo）。',
+
+  // Melory app
+  meloryDescription: '发现音乐背后的故事',
+  meloryDetail1: '每一首歌被写下，都有它的理由。Melory 带你了解这些旋律背后的时代语境、创作初衷和情绪表达。',
+  meloryDetail2: '支持与 Apple Music 播放同步，你也可以通过听歌识曲、新发现、搜索等功能，查看、收藏和分享更多你喜欢的音乐故事。',
   
   // toHDR app
   tohdrDescription: '将照片一键转换为鲜明 HDR 效果',
